@@ -4,7 +4,7 @@ Repositório para o Hackaton  do Curso de Pós Gruduação  de AI para Devs - Tu
 # Links Referências
 
 - [Repositório Github](https://github.com/josehelioaraujo/Grupo51_Fiap_Hackaton_1IADT/tree/main)
-- [Arquivo Google Colab](https://colab.research.google.com/drive/16fYJkJl0sbuc9lEkccmXLnFjm2R5wK1q#scrollTo=0FTQvi7kg3cJ)
+- [Arquivo Google Colab](coloque aqui o link)
 - [Video Apresentacao no Youtube](Coloque aqui o link)
    
 #  Instruções para executar o projeto no Google Colab
