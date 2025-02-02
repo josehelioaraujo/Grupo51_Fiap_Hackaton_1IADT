@@ -1,6 +1,58 @@
 # Grupo51_Fiap_Hackaton_1IADT
 Repositório para o Hackaton  do Curso de Pós Gruduação  de AI para Devs - Turma 1IADT
 
+# Links Referências
+
+- [Repositório Github](https://github.com/josehelioaraujo/Grupo51_Fiap_Hackaton_1IADT/tree/main)
+- [Arquivo Google Colab](https://colab.research.google.com/drive/16fYJkJl0sbuc9lEkccmXLnFjm2R5wK1q#scrollTo=0FTQvi7kg3cJ)
+- [Video Apresentacao no Youtube](Coloque aqui o link)
+   
+#  Instruções para executar o projeto no Google Colab
+   Executar as células na ordem abaixo:
+
+- Môdulo de Inicialização
+    - Importação de libs necessárias
+    - Setar Variáveis Globais
+    - Setar Parâmetros de Configuração do Modelo Yolo
+    - Setar Variáveis globais de Javascript
+
+- Môdulo de Gerenciamento de Logs
+  - Classe LoggerManager
+
+- Môdulo de Configuração do Sistema
+  - Classe SmtpConfig
+  - Classe DatasetConfig
+  - Classe ObjectDetectionConfig
+  - Classe SystemConfig
+  - Classe Configuração
+
+- Môdulo de Utilitários
+  - Classe UtilHelper
+  - Classe Diagnósticos da WebCam
+  - Verificar permissão de acesso da Webcam
+
+- Môdulo da Interface Visual
+   - Classe Diagnósticos da WebCam (mover para 'Utilitários')
+   - Verificar permissão de acesso da Webcam (mover para 'Utilitários')
+   - Classe DisplayUIManager
+   - Classe CamaraSetup
+
+-  Môdulo de Notificação de Alertas
+   - Classe TwilioMessenger
+   - Classe EmailAlertNotifier
+   - Classe AlertNotificationManager
+   - Classe AlertConfig
+
+- Môdulo de Detecção do Objetos
+  - Classe DetectionHistory
+  - Classe DetectionResult
+  - Classe TargetObjectsManager
+  - Classe ObjectorDetector
+  - Classe DetectionObjectSystem
+
+- Môdulo Principal - Executor do Detector de Objetos
+
+
 # 1 - Enunciado do Problema
 
 - A FIAP VisionGuard, empresa de monitoramento de câmeras de segurança, está
