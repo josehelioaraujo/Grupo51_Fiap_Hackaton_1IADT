@@ -6,51 +6,7 @@ Repositório para o Hackaton  do Curso de Pós Gruduação  de AI para Devs - Tu
 - [Repositório Github](https://github.com/josehelioaraujo/Grupo51_Fiap_Hackaton_1IADT/tree/main)
 - [Arquivo Notebook Colab Grupo51_Fiap_IADT_Hackaton_VisionGuard_Fase5.ipynb](https://colab.research.google.com/drive/1FNAtyO7OAMsimmhRfVDtfgQDK59WDHLo#scrollTo=_s0hcGeiay3H)
 - [Video Apresentacao no Youtube](Coloque aqui o link)
-   
-#  Instruções para executar o projeto no Google Colab
-   Executar as células na ordem abaixo:
 
-- Môdulo de Inicialização
-    - Importação de libs necessárias
-    - Setar Variáveis Globais
-    - Setar Parâmetros de Configuração do Modelo Yolo
-    - Setar Variáveis globais de Javascript
-
-- Môdulo de Gerenciamento de Logs
-  - Classe LoggerManager
-
-- Môdulo de Configuração do Sistema
-  - Classe SmtpConfig
-  - Classe DatasetConfig
-  - Classe ObjectDetectionConfig
-  - Classe SystemConfig
-  - Classe Configuração
-
-- Môdulo de Utilitários
-  - Classe UtilHelper
-  - Classe Diagnósticos da WebCam
-  - Verificar permissão de acesso da Webcam
-
-- Môdulo da Interface Visual
-   - Classe Diagnósticos da WebCam (mover para 'Utilitários')
-   - Verificar permissão de acesso da Webcam (mover para 'Utilitários')
-   - Classe DisplayUIManager
-   - Classe CamaraSetup
-
--  Môdulo de Notificação de Alertas
-   - Classe TwilioMessenger
-   - Classe EmailAlertNotifier
-   - Classe AlertNotificationManager
-   - Classe AlertConfig
-
-- Môdulo de Detecção do Objetos
-  - Classe DetectionHistory
-  - Classe DetectionResult
-  - Classe TargetObjectsManager
-  - Classe ObjectorDetector
-  - Classe DetectionObjectSystem
-
-- Môdulo Principal - Executor do Detector de Objetos
 
 
 # 1 - Enunciado do Problema
@@ -73,7 +29,6 @@ negativas (sem objetos perigosos) para reduzir falsos positivos.
 
 ##  Treinamento do modelo
 
-
 ## Entregável
  -  Documentação detalhando o fluxo utilizado para o desenvolvimento da solução
  - Vídeo de até 15 minutos explicando a solução proposta
@@ -89,5 +44,52 @@ negativas (sem objetos perigosos) para reduzir falsos positivos.
 
 - Video 2
   - https://drive.google.com/file/d/1XBhBKY9QHo0xj8gXMYcq92e-vrECrNH3/view
+ 
 
-  
+
+# 2 -Instruções para executar o projeto no Google Colab
+   Executar as células na ordem abaixo:
+
+ 
+
+## Módulo de Inicialização
+- Importação de libs necessárias
+- Setar Variáveis Globais
+- Setar Parâmetros de Configuração do Modelo Yolo
+- Setar Variáveis globais de Javascript
+
+## Módulo de Gerenciamento de Logs
+- Classe LoggerManager
+
+## Módulo de Configuração do Sistema
+- Classe SmtpConfig
+- Classe DatasetConfig  
+- Classe ObjectDetectionConfig
+- Classe SystemConfig
+- Classe Configuração
+
+## Módulo de Utilitários
+- Classe UtilHelper
+- Classe Diagnósticos da WebCam
+- Verificar permissão de acesso da Webcam
+
+## Módulo da Interface Visual
+- Classe DisplayUIManager
+- Classe CamaraSetup
+
+## Módulo de Notificação de Alertas
+- Classe TwilioMessenger
+- Classe EmailAlertNotifier
+- Classe AlertNotificationManager
+- Classe AlertConfig
+
+## Módulo de Detecção do Objetos
+- Classe DetectionHistory
+- Classe DetectionResult 
+- Classe TargetObjectsManager
+- Classe ObjectorDetector
+- Classe DetectionObjectSystem
+
+## Módulo Principal - Executor do Detector de Objetos
+
+
