@@ -4,7 +4,7 @@ Repositório para o Hackaton  do Curso de Pós Gruduação  de AI para Devs - Tu
 # 1 - Entregáveis
 
 - [Repositório Github](https://github.com/josehelioaraujo/Grupo51_Fiap_Hackaton_1IADT/tree/main)
-- [Arquivo Notebook Colab Grupo51_Fiap_IADT_Hackaton_VisionGuard_Fase5.ipynb](https://colab.research.google.com/drive/1FNAtyO7OAMsimmhRfVDtfgQDK59WDHLo#scrollTo=_s0hcGeiay3H)
+- [Arquivo Notebook Colab Grupo51_Fiap_1IADT_Hackaton_VisionGuard_Fase5.ipynb](https://colab.research.google.com/drive/1fgajO90gKfTNAujQnBY3jqWhoNxR2Br4)
 - [Video Apresentacao no Youtube](Coloque aqui o link)
 
 
