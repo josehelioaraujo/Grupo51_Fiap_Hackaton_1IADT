@@ -46,7 +46,8 @@ negativas (sem objetos perigosos) para reduzir falsos positivos.
  
 
 # 3 -Instruções para executar o projeto no Google Colab
-   Executar as células na ordem abaixo:
+   Executar as células na ordem sequencial abaixo, até a seção **Môdulo Principal - Execução do Projeto**:
+    - 
 
 
 ## Módulo de Inicialização
@@ -87,6 +88,8 @@ negativas (sem objetos perigosos) para reduzir falsos positivos.
 - Classe ObjectorDetector
 - Classe DetectionObjectSystem
 
-## Módulo Principal - Executor do Detector de Objetos
+## Módulo Principal - Execução do Projeto
+ - [WebCam] Execução com Webcam
+ - [Videl] Execução com Video
 
 
