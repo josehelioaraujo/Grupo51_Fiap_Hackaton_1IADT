@@ -1,0 +1,88 @@
+
+Olá a todos!
+
+Vamos apresentar o projeto Hackaton VisionGuard relacionado com a 5a e última fase do curso de pós graduação
+em Inteligência Artificial para Desenvolvedores da FIAP.
+
+A proposta do hackaton tem o objetivo criar um projeto MVP de sistema denominado VisionGuard, que é um sistema de vigilância e segurança
+que utiliza técnicas avançadas de Visão Computacional, para detectar e identificar objetos cortantes, em tempo real,
+e o sistema enviará uma notificação de alertas para algum tipo de canal de comunicação,
+e por nosso caso especifico, usamos email,e um bot do discod, mas o sistema foi concebido para se integrar com canais, tais como:
+SMS, WhatsApp, Teams, Telegram. etc..
+
+No nosso caso, escolhemos usar o email e um bot no Discord para receber as mensagens de alertas, de modo que
+podemos monitorar e acampanhar o funcionamento do sistema.
+
+No entanto, nosso sistema foi desenvolvido e concebido para ser multi-canal, pois tem uma arquitetura flexível e extensível, e é capaz
+de e integrar com outros canais de comunicação, tais como,  SMS, whatsApp, Teams, Telegram, Slack, ou até mesmo push notification.
+
+Esta apresentação está dividida em 6 partes principais:
+
+Na primeira parte, falaremos sobre o Módulo de Ingestão de Vídeo.
+Este módulo é fundamental para nosso sistema, pois é responsável por carregar e processar o vídeo de entrada.
+
+Utilizando a classe VideoLoader, conseguimos não apenas carregar o vídeo,
+mas também extrair informações cruciais como resolução, duração e número de frames,
+garantindo uma base sólida para as análises subsequentes.
+
+Na segunda parte, abordaremos o Módulo de Detecção de Objetos.
+O coração do nosso sistema está na detecção precisa de objetos cortantes.
+
+Implementamos um modelo de aprendizado de máquina baseado no YOLO, que analisa cada frame do vídeo em busca destes objetos.
+Nossa implementação não apenas identifica os objetos,
+
+mas também fornece informações precisas sobre sua localização e um índice de confiança da detecção.
+O módulo mantém um histórico inteligente de detecções para evitar duplicidade e
+implementa um sistema robusto de validação de dados antes do processamento.
+
+Na terceira parte, apresentaremos o Módulo de Orquestração e Configuração.
+Este módulo atua como o maestro do sistema, coordenando perfeitamente a interação entre todos os componentes. 
+O VideoAnalysisOrchestrator trabalha em conjunto com o módulo de Configuração, que atua como "single source of truth",
+ centralizando parâmetros cruciais como limiares de detecção, configurações do modelo YOLO e definições dos canais de notificação.
+ Esta arquitetura permite uma gestão eficiente de recursos e facilita futuras expansões do sistema.
+
+Na quarta parte, exploraremos o Módulo de Notificação.
+Nosso sistema implementa um robusto mecanismo de notificações multicanal, incluindo email e Discord.
+A comunicação entre a detecção e notificação é gerenciada através de um sistema de eventos assíncrono.
+Cada alerta inclui informações detalhadas sobre a detecção, incluindo o tipo de objeto,
+o momento exato da detecção e uma imagem do frame correspondente.
+O sistema mantém um cache inteligente de notificações enviadas para otimizar recursos e evitar duplicações.
+
+Na quinta parte, apresentaremos a Arquitetura de Interação.
+
+Nossa arquitetura foi projetada priorizando:
+
+Escalabilidade: permitindo fácil adição de novos tipos de detecção e canais de notificação
+Manutenibilidade: com módulos que podem ser atualizados independentemente
+Testabilidade: facilitando testes isolados e mock de dependências
+Flexibilidade: permitindo adaptação a diferentes cenários sem modificação de código
+
+Na sexta parte, sobre as conclusões e próximos passos:
+
+Nosso MVP demonstrou grande potencial, mas também identificamos algumas considerações importantes:
+
+A performance do sistema varia conforme a complexidade do modelo e a resolução do vídeo
+
+Existe a possibilidade de falsos positivos, necessitando de validação humana
+
+O processamento de vídeo demanda recursos computacionais significativos
+
+Para o futuro, planejamos:
+ 
+Aprimorar o modelo de detecção para reduzir falsos positivos
+Expandir as opções de canais de notificação, incluindo WhatsApp e SMS
+Desenvolver uma interface gráfica para melhor visualização dos resultados
+Otimizar a performance para análise de vídeos mais longos
+Implementar um sistema mais robusto de métricas e monitoramento
+Expandir as funcionalidades de cache e histórico para análises mais profundas
+
+E por fim, gostaria de agradecer a todos os professores a alunos nos quais tive contatos, principalmente,
+ em participações na nas lives e mentorias, onde aprendemos e trocamos muitas idéias, 
+ principalmente com temas que abordaram  vários de temas relacionados à Inteligência Artificial.
+
+Esperamos que esse projeto do Hackaton do VisionGuard aprendipossa contribuir para um ambiente mais seguro através da tecnologia.
+Estamos abertos a perguntas e sugestões para continuar melhorando nossa solução
+Nos colocamos a disposição, para qualquer dúvida ou sugestão!
+Obrigado pela atenção e até logo! 
+
+ 
