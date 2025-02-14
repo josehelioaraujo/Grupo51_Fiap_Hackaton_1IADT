@@ -1,15 +1,14 @@
 # Grupo51_Fiap_Hackaton_1IADT
 Repositório para o Hackaton  do Curso de Pós Gruduação  de AI para Devs - Turma 1IADT
 
-# Links Referências
+# 1 - Entregáveis
 
 - [Repositório Github](https://github.com/josehelioaraujo/Grupo51_Fiap_Hackaton_1IADT/tree/main)
 - [Arquivo Notebook Colab Grupo51_Fiap_IADT_Hackaton_VisionGuard_Fase5.ipynb](https://colab.research.google.com/drive/1FNAtyO7OAMsimmhRfVDtfgQDK59WDHLo#scrollTo=_s0hcGeiay3H)
 - [Video Apresentacao no Youtube](Coloque aqui o link)
 
 
-
-# 1 - Enunciado do Problema
+# 2 - Enunciado do Problema
 
 - A FIAP VisionGuard, empresa de monitoramento de câmeras de segurança, está
 analisando a viabilidade de uma nova funcionalidade para otimizar o seu software.
@@ -46,11 +45,9 @@ negativas (sem objetos perigosos) para reduzir falsos positivos.
   - https://drive.google.com/file/d/1XBhBKY9QHo0xj8gXMYcq92e-vrECrNH3/view
  
 
-
-# 2 -Instruções para executar o projeto no Google Colab
+# 3 -Instruções para executar o projeto no Google Colab
    Executar as células na ordem abaixo:
 
- 
 
 ## Módulo de Inicialização
 - Importação de libs necessárias
