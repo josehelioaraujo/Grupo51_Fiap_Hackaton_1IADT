@@ -1,0 +1,7 @@
+Fonte:     CAMERA
+Source ID: CAMERA CAM01
+Objeto:    fork
+Categoria: cutelaria
+Modelo:    yolov8n.pt
+Caminho Imagem: /content/drive/MyDrive/Fiap_IADT_Hackaton/Alertas/Alerta_CAMERA_CAM01_fork_17022025_21h36m33s.jpg
+Data/Hora: 17022025_21h36m33s
